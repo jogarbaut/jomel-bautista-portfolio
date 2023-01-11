@@ -176,7 +176,30 @@ img {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to right, #F09819, #EDDE5D);
+    /* background: linear-gradient(to right, #F09819, #EDDE5D); */
+    animation: changeBackground 7.5s infinite alternate linear;
+}
+
+@keyframes changeBackground {
+    0% {
+        background: #432371;
+    }
+
+    25% {
+        background: #714674;
+    }
+
+    50% {
+        background: #9F6976;
+    }
+
+    75% {
+        background: #CC8B79;
+    }
+
+    100% {
+        background: #FAAE7B;
+    }
 }
 
 .home .text {
