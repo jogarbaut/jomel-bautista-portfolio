@@ -183,23 +183,11 @@ img {
 
 @keyframes changeBackground {
     0% {
-        background: #432371;
-    }
-
-    25% {
-        background: #714674;
-    }
-
-    50% {
-        background: #9F6976;
-    }
-
-    75% {
-        background: #CC8B79;
+        background: #8E2DE2;
     }
 
     100% {
-        background: #FAAE7B;
+        background: #4A00E0;
     }
 }
 
@@ -429,6 +417,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .home .text {
+        padding-bottom: 25%;
+    }
+
     .home .text h2 {
         font-size: 2em;
         font-weight: 500;
