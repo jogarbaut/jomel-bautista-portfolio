@@ -426,3 +426,36 @@ footer {
     }
     ;
 }
+
+@media (max-width: 850px) {
+    .home .text h2 {
+        font-size: 2em;
+        font-weight: 500;
+        line-height: 1em;
+        color: white;
+        margin-bottom: 0;
+    }
+    
+    .home .text h3 {
+        font-size: 1.25em;
+        font-weight: 600;
+        line-height: 1em;
+        color: rgba(255, 255, 255, .75);
+    }
+    
+    .home .text p {
+        font-size: .75em;
+        font-weight: 400;
+        max-width: 75%;
+        margin: 20px 0;
+        color: rgba(255, 255, 255, .99);
+    }
+    
+    .home .text span {
+        font-weight: 800;
+    }
+
+    #btn-showcase {
+        font-size: .75em;
+    }
+}
