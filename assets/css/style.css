@@ -153,6 +153,7 @@ img {
     border-radius: 0;
     border-width: 2px;
     font-weight: 500;
+    z-index: 100;
 }
 
 .btn-brand,
@@ -427,7 +428,7 @@ footer {
     ;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 480px) {
     .home .text h2 {
         font-size: 2em;
         font-weight: 500;
