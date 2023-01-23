@@ -60,6 +60,11 @@ a:hover {
 
 img {
     width: 100%;
+    height: auto;
+}
+
+.no-wrap {
+    white-space: nowrap;
 }
 
 .section-padding {
@@ -83,6 +88,13 @@ img {
 .section-title {
     max-width: 560px;
     margin: 0 auto 10px auto;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.section-subtitle {
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .section-text {
@@ -127,6 +139,7 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, .25);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -197,6 +210,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .home .text h2 {
@@ -216,7 +230,7 @@ img {
 
 .home .text p {
     font-size: 1.25em;
-    font-weight: 400;
+    font-weight: 300;
     max-width: 75%;
     margin: 20px 0;
     color: rgba(255, 255, 255, .99);
@@ -254,9 +268,15 @@ img {
     margin-bottom: 50px;
 }
 
+.icon-container {
+    width: 25%;
+}
+
 .icon {
-    width: 70px;
+    width: 100%;
     height: auto;
+    max-height: 100px;
+    object-fit: contain;
 }
 
 /* White Divider */
@@ -299,7 +319,7 @@ img {
 
 .project .title {
     color: black;
-    font-size: 2em;
+    font-size: 1.35em;
 }
 
 .project .description {
